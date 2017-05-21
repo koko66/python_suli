@@ -1,3 +1,10 @@
+#
+#   Vigyázz!!!
+#   ha a
+#   GPIO.setup(BtnPin, GPIO.IN, pull_up_down=GPIO.PUD_UP)
+#   be van kapcsolva, nem kell a nyomógombhoz felhúzó ellenállás !!!
+#
+
 #!/usr/bin/env python
 import RPi.GPIO as GPIO
 
